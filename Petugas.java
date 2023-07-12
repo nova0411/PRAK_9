@@ -1,10 +1,10 @@
 public class Petugas {
     private String namaPetugas;
-    private String nip;
+    private String nim;
     
-    public Petugas(String namaPetugas, String nip){
+    public Petugas(String namaPetugas, String nim){
         this.namaPetugas = namaPetugas;
-        this.nip = nip;
+        this.nim = nim;
     }
 
     public String getNamaPetugas(){
@@ -12,6 +12,6 @@ public class Petugas {
     }
 
     public String getNip(){
-        return nip;
+        return nim;
     }
 }
